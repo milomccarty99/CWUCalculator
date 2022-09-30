@@ -1,0 +1,10 @@
+C:\Users\zoomz\source\repos\DesktopCalculator\DesktopCalculator\bin\Debug\DesktopCalculator.exe.config
+C:\Users\zoomz\source\repos\DesktopCalculator\DesktopCalculator\bin\Debug\DesktopCalculator.exe
+C:\Users\zoomz\source\repos\DesktopCalculator\DesktopCalculator\bin\Debug\DesktopCalculator.pdb
+C:\Users\zoomz\source\repos\DesktopCalculator\DesktopCalculator\obj\Debug\DesktopCalculator.csproj.AssemblyReference.cache
+C:\Users\zoomz\source\repos\DesktopCalculator\DesktopCalculator\obj\Debug\DesktopCalculator.Form1.resources
+C:\Users\zoomz\source\repos\DesktopCalculator\DesktopCalculator\obj\Debug\DesktopCalculator.Properties.Resources.resources
+C:\Users\zoomz\source\repos\DesktopCalculator\DesktopCalculator\obj\Debug\DesktopCalculator.csproj.GenerateResource.cache
+C:\Users\zoomz\source\repos\DesktopCalculator\DesktopCalculator\obj\Debug\DesktopCalculator.csproj.CoreCompileInputs.cache
+C:\Users\zoomz\source\repos\DesktopCalculator\DesktopCalculator\obj\Debug\DesktopCalculator.exe
+C:\Users\zoomz\source\repos\DesktopCalculator\DesktopCalculator\obj\Debug\DesktopCalculator.pdb
