@@ -57,6 +57,7 @@ namespace DesktopCalculator
             this.button26 = new System.Windows.Forms.Button();
             this.button27 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button28 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -68,6 +69,7 @@ namespace DesktopCalculator
             this.button1.TabIndex = 0;
             this.button1.Text = "0";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -78,6 +80,7 @@ namespace DesktopCalculator
             this.button2.TabIndex = 1;
             this.button2.Text = "1";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -88,6 +91,7 @@ namespace DesktopCalculator
             this.button3.TabIndex = 2;
             this.button3.Text = "2";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -98,6 +102,7 @@ namespace DesktopCalculator
             this.button4.TabIndex = 3;
             this.button4.Text = "3";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -108,6 +113,7 @@ namespace DesktopCalculator
             this.button5.TabIndex = 6;
             this.button5.Text = "6";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -118,6 +124,7 @@ namespace DesktopCalculator
             this.button6.TabIndex = 5;
             this.button6.Text = "5";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -128,6 +135,7 @@ namespace DesktopCalculator
             this.button7.TabIndex = 4;
             this.button7.Text = "4";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
@@ -138,6 +146,7 @@ namespace DesktopCalculator
             this.button8.TabIndex = 9;
             this.button8.Text = "9";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button9
             // 
@@ -148,6 +157,7 @@ namespace DesktopCalculator
             this.button9.TabIndex = 8;
             this.button9.Text = "8";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button10
             // 
@@ -158,6 +168,7 @@ namespace DesktopCalculator
             this.button10.TabIndex = 7;
             this.button10.Text = "7";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button11
             // 
@@ -168,6 +179,7 @@ namespace DesktopCalculator
             this.button11.TabIndex = 10;
             this.button11.Text = ".";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button12
             // 
@@ -178,6 +190,7 @@ namespace DesktopCalculator
             this.button12.TabIndex = 21;
             this.button12.Text = "log10";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // button13
             // 
@@ -188,6 +201,7 @@ namespace DesktopCalculator
             this.button13.TabIndex = 20;
             this.button13.Text = "*";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // button14
             // 
@@ -198,6 +212,7 @@ namespace DesktopCalculator
             this.button14.TabIndex = 19;
             this.button14.Text = "-";
             this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // button15
             // 
@@ -208,6 +223,7 @@ namespace DesktopCalculator
             this.button15.TabIndex = 18;
             this.button15.Text = "+";
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // button16
             // 
@@ -218,6 +234,7 @@ namespace DesktopCalculator
             this.button16.TabIndex = 17;
             this.button16.Text = "sin";
             this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // button17
             // 
@@ -228,6 +245,7 @@ namespace DesktopCalculator
             this.button17.TabIndex = 16;
             this.button17.Text = "^";
             this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // button18
             // 
@@ -238,6 +256,7 @@ namespace DesktopCalculator
             this.button18.TabIndex = 15;
             this.button18.Text = "/";
             this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
             // button19
             // 
@@ -248,6 +267,7 @@ namespace DesktopCalculator
             this.button19.TabIndex = 14;
             this.button19.Text = "cot";
             this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
             // button20
             // 
@@ -258,6 +278,7 @@ namespace DesktopCalculator
             this.button20.TabIndex = 13;
             this.button20.Text = "tan";
             this.button20.UseVisualStyleBackColor = true;
+            this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
             // button21
             // 
@@ -268,6 +289,7 @@ namespace DesktopCalculator
             this.button21.TabIndex = 12;
             this.button21.Text = "cos";
             this.button21.UseVisualStyleBackColor = true;
+            this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
             // button22
             // 
@@ -278,6 +300,7 @@ namespace DesktopCalculator
             this.button22.TabIndex = 11;
             this.button22.Text = "ln";
             this.button22.UseVisualStyleBackColor = true;
+            this.button22.Click += new System.EventHandler(this.button22_Click);
             // 
             // button23
             // 
@@ -288,6 +311,7 @@ namespace DesktopCalculator
             this.button23.TabIndex = 23;
             this.button23.Text = ")";
             this.button23.UseVisualStyleBackColor = true;
+            this.button23.Click += new System.EventHandler(this.button23_Click);
             // 
             // button24
             // 
@@ -298,6 +322,7 @@ namespace DesktopCalculator
             this.button24.TabIndex = 22;
             this.button24.Text = "(";
             this.button24.UseVisualStyleBackColor = true;
+            this.button24.Click += new System.EventHandler(this.button24_Click);
             // 
             // button25
             // 
@@ -308,6 +333,7 @@ namespace DesktopCalculator
             this.button25.TabIndex = 25;
             this.button25.Text = "}";
             this.button25.UseVisualStyleBackColor = true;
+            this.button25.Click += new System.EventHandler(this.button25_Click);
             // 
             // button26
             // 
@@ -318,6 +344,7 @@ namespace DesktopCalculator
             this.button26.TabIndex = 24;
             this.button26.Text = "{";
             this.button26.UseVisualStyleBackColor = true;
+            this.button26.Click += new System.EventHandler(this.button26_Click);
             // 
             // button27
             // 
@@ -328,20 +355,35 @@ namespace DesktopCalculator
             this.button27.TabIndex = 26;
             this.button27.Text = "=";
             this.button27.UseVisualStyleBackColor = true;
+            this.button27.Click += new System.EventHandler(this.button27_Click);
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(51, 54);
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(403, 47);
             this.textBox1.TabIndex = 27;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // button28
+            // 
+            this.button28.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button28.Location = new System.Drawing.Point(51, 377);
+            this.button28.Name = "button28";
+            this.button28.Size = new System.Drawing.Size(130, 55);
+            this.button28.TabIndex = 28;
+            this.button28.Text = "CLEAR";
+            this.button28.UseVisualStyleBackColor = true;
+            this.button28.Click += new System.EventHandler(this.button28_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(525, 450);
+            this.Controls.Add(this.button28);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button27);
             this.Controls.Add(this.button25);
@@ -408,6 +450,7 @@ namespace DesktopCalculator
         private System.Windows.Forms.Button button26;
         private System.Windows.Forms.Button button27;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button button28;
     }
 }
 
